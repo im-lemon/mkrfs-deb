@@ -63,7 +63,7 @@ rm -rf build/
 echo "Name for kernel image: "
 read ki_n
 
-if ["$ki_n" = ""]; then
+if [ "$ki_n" = "" ]; then
 	ki_n="bzImage"
 fi
 
