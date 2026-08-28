@@ -58,7 +58,7 @@ sudo debootstrap $1 $HOME/build
 echo ""
 sudo tar --numeric-owner -cpf "$HOME/deb-rootfs.tar" -C "$HOME/build" .
 
-rm -rf build/
+sudo rm -rf build/
 
 echo "Name for kernel image: "
 read ki_n
